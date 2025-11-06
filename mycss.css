@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: rgb(255, 190, 190);
+    width: 20rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+.inputs p{
+    margin: 0;
+    padding-bottom: 3px;
+}
+.inputs input{
+    margin-bottom: 10px;
+}
+.container button{
+    margin: 10px;
+}
